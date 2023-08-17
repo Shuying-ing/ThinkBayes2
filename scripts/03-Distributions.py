@@ -1,13 +1,13 @@
 """
 Today's python techniques:
 
-- Pmf()
+- Pmf()  #  Construct distributions
 - Pmf.from_seq()
 - Pmf(1, hypos)
-- prior.normalize()
-- idx = posterior.max_prob()  # 01
-- idx = posterior.idxmax() # 02
-- MAP = posterior[idx]
+- prior.normalize()  # normalize distributions
+- idx = posterior.max_prob()  # 01 Find the most likely value
+- idx = posterior.idxmax()  # 02 Find the most likely value
+- MAP = posterior[idx]  # Find the maximum probabiliry
 """
 
 from empiricaldist import Pmf

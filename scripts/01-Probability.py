@@ -1,8 +1,8 @@
 """
 Today's python techniques:
 
-- print("xxx {:.4f}".format(variable)
-- selected = A[B]  # Select A given B
+print("xxx {:.4f}".format(variable))  # formatting print
+selected = A[B]  # Select A given B
 """
 
 import pandas as pd

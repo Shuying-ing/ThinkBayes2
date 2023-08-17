@@ -1,8 +1,8 @@
 """
 Today's python techniques:
 
-- table = pd.DataFrame(index=["H1", "H2"])
-- Fraction(num, den)
+- table = pd.DataFrame(index=["H1", "H2"])  # Construct a df with index
+- Fraction(num, den)  # Construct a fraction
 """
 
 import pandas as pd
@@ -20,7 +20,6 @@ def update(table):
 
 
 if __name__ == "__main__":
-
     """
     Construct a general Bayes table
     """
