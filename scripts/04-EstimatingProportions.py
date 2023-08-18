@@ -1,8 +1,8 @@
 """
 Today's python techniques:
 
-binom.pmf(ks, n, p)  # Construct a binom distribution
-print(f"xxx {variable}")  # print with 'f'
+- binom.pmf(ks, n, p)  # Compute the prob of bbinom distribution
+- print(f"xxx {variable}")  # print with 'f'
 """
 
 from scipy.stats import binom

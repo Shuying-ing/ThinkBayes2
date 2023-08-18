@@ -1,11 +1,11 @@
 """
 Today's python techniques:
 
-mean = np.sum(posterior.ps * posterior.qs)  # Expectation of a distribution
-df = pd.DataFrame(columns=["Posterior mean"])  # Constuct a df with columns
-df.index.name = "Upper bound"  # Designate the index name of df
-posterior.prob_le() # Compute percentile rank
-posterior.credible_interval()  # Compute credible_interval
+- mean = np.sum(posterior.ps * posterior.qs)  # Expectation of a distribution
+- df = pd.DataFrame(columns=["Posterior mean"])  # Constuct a df with columns
+- df.index.name = "Upper bound"  # Designate the index name of df
+- posterior.prob_le() # Compute percentile rank
+- posterior.credible_interval()  # Compute credible_interval
 """
 
 from empiricaldist import Pmf
